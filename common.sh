@@ -8,7 +8,7 @@
 # I also use shellcheck to make sure that I am not using any bashisms.
 # https://github.com/koalaman/shellcheck
 
-source /usr/lib/david/logging.sh
+source <(curl https://raw.githubusercontent.com/YojimboSecurity/shell-libs/main/logging.sh)
 
 #######################################
 # find_file is a wrapper around find
