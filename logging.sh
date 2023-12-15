@@ -8,7 +8,7 @@
 # I also use shellcheck to make sure that I am not using any bashisms.
 # https://github.com/koalaman/shellcheck
 
-source <(curl https://raw.githubusercontent.com/YojimboSecurity/shell-libs/main/color.sh)
+source <(curl --silent https://raw.githubusercontent.com/YojimboSecurity/shell-libs/main/color.sh)
 log::panic(){
     d=$(date "+%Y.%m.%d-%H:%M:%S")
     echo -e "$BRed[$d PANIC]:$Color_Off $*" >&2

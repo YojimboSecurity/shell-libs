@@ -16,17 +16,16 @@ Logging Functions:
 
 ## Usage:
 
-### Source the library files:
-
+### Source the library Files 
 
 ```shell
 # Source individual files
-source <(curl https://raw.githubusercontent.com/YojimboSecurity/shell-libs/main/logging.sh)
-source <(curl https://raw.githubusercontent.com/YojimboSecurity/shell-libs/main/common.sh)
-source <(curl https://raw.githubusercontent.com/YojimboSecurity/shell-libs/main/colors.sh)
+source <(curl --silent https://raw.githubusercontent.com/YojimboSecurity/shell-libs/main/logging.sh)
+source <(curl --silent https://raw.githubusercontent.com/YojimboSecurity/shell-libs/main/common.sh)
+source <(curl --silent https://raw.githubusercontent.com/YojimboSecurity/shell-libs/main/colors.sh)
 
 # Or source the entire library directory
-source <(curl https://raw.githubusercontent.com/YojimboSecurity/shell-libs/main/shell-libs.tar.gz | tar -xzf -)
+source <(curl --silent https://raw.githubusercontent.com/YojimboSecurity/shell-libs/main/shell-libs.tar.gz | tar -xzf -)
 ```
 
 ### Use the functions:
